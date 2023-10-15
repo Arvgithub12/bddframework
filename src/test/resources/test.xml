@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="TestNGDemo.VerifyTitle">
+		  <methods>
+			  <include name="TestNGDemo.VerifyTitle.CheckTitle()"></include>
+		  </methods>
+	  </class>
+	  <class name="TestNGDemo.VerifyURL">
+		  <methods>
+			  <include name="VerifyMYURL()"></include>
+		  </methods>
+	  </class>
+	  <class name="TestNGDemo.Login">
+		  <methods>
+			  <include name="Zlogin()"></include>
+		  </methods>
+	  </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

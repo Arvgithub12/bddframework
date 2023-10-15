@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="TestNGDemo.VerifyTitle">
+        <methods>
+          <include name="TestNGDemo.VerifyTitle.CheckTitle()"/>
+        </methods>
+      </class> <!-- TestNGDemo.VerifyTitle -->
+      <class name="TestNGDemo.VerifyURL">
+        <methods>
+          <include name="VerifyMYURL()"/>
+        </methods>
+      </class> <!-- TestNGDemo.VerifyURL -->
+      <class name="TestNGDemo.Login">
+        <methods>
+          <include name="Zlogin()"/>
+        </methods>
+      </class> <!-- TestNGDemo.Login -->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Failed suite [Suite] -->
